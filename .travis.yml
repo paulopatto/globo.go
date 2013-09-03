@@ -2,6 +2,10 @@ language: go
 go:
   - 1.0
   - 1.1
-
-script:
-  - go test -v
+notifications:
+  recipients:
+    email:
+      recipients:
+        - paulopatto@gmail.com
+      on_failure: aways
+      on_success: change
