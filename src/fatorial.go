@@ -19,18 +19,18 @@ func main(){
   if err == nil{
     fmt.Printf("Fatorial do número %q\n", os.Args[1])
     fmt.Printf("- Recursivamente: \n\t")
-    fmt.Println(factorial(n))
+    fmt.Println(Factorial(n))
     fmt.Printf("- Iterativamente: \n\t")
-    fmt.Println(factorial2(n))
+    fmt.Println(Factorial2(n))
   }
 }
 
-func factorial(number int) int {
+func Factorial(number int) int {
   if number < 2 { return 1 }
-  return number * factorial(number - 1)
+  return number * Factorial(number - 1)
 }
 
-func factorial2(number int) int{
+func Factorial2(number int) int{
   fat := 1
   for ; number > 1 ; {
     fat *= number

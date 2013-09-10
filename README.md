@@ -2,7 +2,6 @@
 
 A composição deste teste de composta de..
 
-
 ## Ping-Pong
 
 Escreva um programa que imprime na tela números de 1 a 100, um por linha. Existem 2 exceções:
@@ -25,8 +24,10 @@ Escreva uma função que recebe como parâmetro um número inteiro positivo e re
 
 - Como você pode proteger as implementação (tava escrito função) de parâmetros inválidos.
 > Efetuando a verificação de tipos no caso de uma linguage de tipagem dinâmica como `Python`, `Javascript` ou `Ruby`. No caso de `Go` não acho necessária esta verificação de tipo pois usamos o tipo de dados explicitamente. Porém podemos fazer a conversão de tipos o que pode garantir. (Ainda em construção...)
+
 - Existem duas formas de implementar essa função: **Iterativa** e **Recursiva**. Você consegue implementar de ambas as formas?
 > Vide `src/fatorial.go` com as funcs `factorial` e `factorial2`
+
 - Quais as vantagens e desvantagens da implementação *iterativa* e *recursiva*?
 - Você consegue escrever testes automatizados para garantir que a saida do programa está correta?
 

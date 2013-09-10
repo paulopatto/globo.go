@@ -9,7 +9,7 @@ import "fmt"
     2. Quando o número for múltiplo de 5, imprima apenas a palavra `pong` em vez do número.
 */
 
-func main(){
+func PingPong(){
   fmt.Println("The Ping-Pong program")
   fmt.Println("=====================")
   fmt.Println("\nThis program print number between 1 and 100 but, if number is multiply 3 it print word ping, if number multiply 5 print word pong...\n")
