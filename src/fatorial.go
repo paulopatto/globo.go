@@ -18,15 +18,15 @@ func main(){
   n, err := strconv.Atoi(os.Args[1])
   if err == nil{
     fmt.Printf("Fatorial do número %q\n", os.Args[1])
-    fmt.Printf("recursivo\n\t")
+    fmt.Printf("- Recursivamente: \n\t")
     fmt.Println(factorial(n))
-    fmt.Printf("Agora com loop for while\n\t")
+    fmt.Printf("- Iterativamente: \n\t")
     fmt.Println(factorial2(n))
   }
 }
 
 func factorial(number int) int {
-  if number < 2 { return number }
+  if number < 2 { return 1 }
   return number * factorial(number - 1)
 }
 
